@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-Ruby Microsoft Graph チュートリアルが完了しました。 Microsoft Graph を呼び出す作業用アプリが作成されたので、新しい機能を試して追加できます。 Microsoft Graph [の概要にアクセスして、Microsoft Graph](/graph/overview) でアクセスできるすべてのデータを確認してください。
+Ruby Microsoft のこのチュートリアルはGraph完了です。 Microsoft Graphを呼び出す作業アプリが作成されたので、新しい機能を試して追加できます。 Microsoft Graph[の](/graph/overview)概要を参照して、Microsoft Graphでアクセスできるすべてのデータを確認Graph。
 
 ## <a name="feedback"></a>フィードバック
 
-このチュートリアルに関するフィードバックは [、GitHub リポジトリで提供してください](https://github.com/microsoftgraph/msgraph-training-rubyrailsapp)。
+このチュートリアルに関するフィードバックは、GitHub[してください](https://github.com/microsoftgraph/msgraph-training-rubyrailsapp)。

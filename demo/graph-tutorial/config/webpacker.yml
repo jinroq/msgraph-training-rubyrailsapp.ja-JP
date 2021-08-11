@@ -1,10 +1,10 @@
 ### YamlMime:Yaml
-ms.openlocfilehash: 29103063c2210df1e945ae56cfed46d090f1b8dc
-ms.sourcegitcommit: fd958607710a6a4b25c595bca1f289d423fb3f32
+ms.openlocfilehash: d17510bb04d0500ec9b890930356a53fda01e734b9fa0fbe2950904b20efa069
+ms.sourcegitcommit: 27285bbc4a032991d55a7cf0499a89f2d0a89363
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52058172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "58180091"
 default:
   source_path: app/javascript
   source_entry_path: packs

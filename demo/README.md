@@ -1,20 +1,20 @@
-# <a name="how-to-run-the-completed-project"></a>完成したプロジェクトを実行する方法
+# <a name="how-to-run-the-completed-project"></a>完了したプロジェクトを実行する方法
 
 ## <a name="prerequisites"></a>前提条件
 
-このフォルダーで完成したプロジェクトを実行するには、以下が必要です。
+このフォルダーで完了したプロジェクトを実行するには、次の情報が必要です。
 
-- [Ruby](https://www.ruby-lang.org/en/downloads/) が開発用コンピューターにインストールされている。 Ruby をお持ちではない場合は、ダウンロード オプションの前のリンクを参照してください。 (**注:** このチュートリアルは Ruby バージョン 2.6.5 で記述されています。 このガイドの手順は他のバージョンでも動作する可能性がありますが、テストは行ってはいではありません)。
-- メールボックスがメールボックスを持つ個人用の Microsoft アカウントOutlook.com、または Microsoft の仕事用または学校のアカウント。
+- [開発](https://www.ruby-lang.org/en/downloads/) マシンにインストールされている Ruby。 Ruby をお持ちではない場合は、ダウンロード オプションの前のリンクを参照してください。 (**注:** このチュートリアルは Ruby バージョン 2.6.5 で記述されています。 このガイドの手順は、他のバージョンで動作する場合がありますが、テストされていない場合があります)。
+- Outlook.com 上のメールボックスを持つ個人の Microsoft アカウント、または Microsoft の仕事用または学校用のアカウント。
 
-Microsoft アカウントをお持ちない場合は、無料アカウントを取得するためのオプションが 2 つ提供されています。
+Microsoft アカウントをお持ちでない場合は、無料アカウントを取得するためのオプションが 2 つご利用できます。
 
 - 新しい [個人用 Microsoft アカウントにサインアップできます](https://signup.live.com/signup?wa=wsignin1.0&rpsnv=12&ct=1454618383&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https://mail.live.com/default.aspx&id=64855&cbcxt=mai&bk=1454618383&uiflavor=web&uaid=b213a65b4fdc484382b6622b3ecaa547&mkt=E-US&lc=1033&lic=1)。
-- Office [365 開発者プログラムにサインアップして、365](https://developer.microsoft.com/office/dev-program) サブスクリプションを無料Office取得できます。
+- 開発者プログラム[にサインアップしてOffice 365無料](https://developer.microsoft.com/office/dev-program)のサブスクリプションをOffice 365できます。
 
-## <a name="register-a-web-application-with-the-azure-active-directory-admin-center"></a>Azure Active Directory 管理センターに Web アプリケーションを登録する
+## <a name="register-a-web-application-with-the-azure-active-directory-admin-center"></a>Web アプリケーションを管理センターにAzure Active Directoryする
 
-1. ブラウザーを開き、[Azure Active Directory 管理センター](https://aad.portal.azure.com)に移動します。 **個人用アカウント** (別名: Microsoft アカウント)、または **職場/学校アカウント** を使用してログインします。
+1. ブラウザーを開き、[Azure Active Directory 管理センター](https://aad.portal.azure.com)へ移動します。 **個人用アカウント** (別名: Microsoft アカウント)、または **職場/学校アカウント** を使用してログインします。
 
 1. 左側のナビゲーションで **[Azure Active Directory]** を選択し、それから **[管理]** で **[アプリの登録]** を選択します。
 
@@ -28,7 +28,7 @@ Microsoft アカウントをお持ちない場合は、無料アカウントを�
 
     ![[アプリケーションを登録する] ページのスクリーンショット](/tutorial/images/aad-register-an-app.png)
 
-1. **[登録]** を選択します。 **[Ruby Graph チュートリアル]** ページで、アプリケーション **(クライアント) ID** の値をコピーして保存します。次の手順で必要になります。
+1. **[登録]** を選択します。 [Ruby **Graphチュートリアル**] ページで、**アプリケーション (クライアント) ID** の値をコピーして保存します。次の手順で必要になります。
 
     ![新しいアプリ登録のアプリケーション ID のスクリーンショット](/tutorial/images/aad-application-id.png)
 
@@ -45,9 +45,9 @@ Microsoft アカウントをお持ちない場合は、無料アカウントを�
 
 ## <a name="configure-the-sample"></a>サンプルを構成する
 
-1. ファイルの名前 `./config/oauth_environment_variables.rb.example` を変更します `oauth_environment_variables.rb` 。
+1. ファイルの名前 `./config/oauth_environment_variables.rb.example` をに変更します `oauth_environment_variables.rb` 。
 1. ファイルを `oauth_environment_variables.rb` 編集し、次の変更を行います。
-    1. アプリ `YOUR_APP_ID_HERE` 登録ポータル **から取得** したアプリケーション ID に置き換える。
+    1. アプリ `YOUR_APP_ID_HERE` 登録ポータル **から取得した** アプリケーション ID に置き換える。
     1. アプリ `YOUR APP PASSWORD HERE` 登録ポータルから受け取ったパスワードに置き換える。
 1. コマンド ライン インターフェイス (CLI) で、このディレクトリに移動し、次のコマンドを実行して要件をインストールします。
 
@@ -55,13 +55,13 @@ Microsoft アカウントをお持ちない場合は、無料アカウントを�
     bundle install
     ```
 
-1. CLI で次のコマンドを実行して、パッケージをインストールします。
+1. CLI で次のコマンドを実行して、yarn パッケージをインストールします。
 
     ```Shell
     yarn install
     ```
 
-1. CLI で次のコマンドを実行して、アプリのデータベースを初期化します。
+1. CLI で、次のコマンドを実行してアプリのデータベースを初期化します。
 
     ```Shell
     rake db:migrate

@@ -1,10 +1,10 @@
 ### YamlMime:Yaml
-ms.openlocfilehash: 11675002007d3817544f74e9441f415b3c8853af
-ms.sourcegitcommit: fd958607710a6a4b25c595bca1f289d423fb3f32
+ms.openlocfilehash: a52c89c85053e039f8f92dc37c6e090d41b75234785c7c99d73dc5b4eae82b3c
+ms.sourcegitcommit: 27285bbc4a032991d55a7cf0499a89f2d0a89363
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52058144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "58180133"
 Layout/ArgumentAlignment:
   Exclude:
   - bin/webpack

@@ -1,10 +1,10 @@
 ### YamlMime:Yaml
-ms.openlocfilehash: 55d355a1356146a9503f8e817642f8c925c15b67
-ms.sourcegitcommit: ab01e18a0d4e60d00731a5f0ae82face835a3cce
+ms.openlocfilehash: e10a7e31599d01294767074ed7aa2d3cbfe2a1ea65942e8fc653f4cf16aaed92
+ms.sourcegitcommit: 27285bbc4a032991d55a7cf0499a89f2d0a89363
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43613093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "58180210"
 development:
   adapter: async
 test:
